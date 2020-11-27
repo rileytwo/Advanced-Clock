@@ -11,6 +11,12 @@
 		BF03CF30236640E6004ABC61 /* Bool+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03CF2F236640E6004ABC61 /* Bool+Extension.swift */; };
 		BF03CF3223664155004ABC61 /* NSMenu+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03CF3123664155004ABC61 /* NSMenu+Extension.swift */; };
 		BF03CF3423664FF6004ABC61 /* DockIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF03CF3323664FF6004ABC61 /* DockIcon.swift */; };
+		BF1A398B2571813A004A4E54 /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BF1A39852571813A004A4E54 /* Project-Release.xcconfig */; };
+		BF1A398C2571813A004A4E54 /* Project-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BF1A39862571813A004A4E54 /* Project-Shared.xcconfig */; };
+		BF1A398D2571813A004A4E54 /* Advanced-Clock-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BF1A39872571813A004A4E54 /* Advanced-Clock-Release.xcconfig */; };
+		BF1A398E2571813A004A4E54 /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BF1A39882571813A004A4E54 /* Project-Debug.xcconfig */; };
+		BF1A398F2571813A004A4E54 /* Advanced-Clock-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BF1A39892571813A004A4E54 /* Advanced-Clock-Debug.xcconfig */; };
+		BF1A39902571813A004A4E54 /* Advanced-Clock-Shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BF1A398A2571813A004A4E54 /* Advanced-Clock-Shared.xcconfig */; };
 		BFF25A9C2366281100667B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF25A9B2366281100667B15 /* AppDelegate.swift */; };
 		BFF25A9E2366281100667B15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF25A9D2366281100667B15 /* ViewController.swift */; };
 		BFF25AA02366281200667B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF25A9F2366281200667B15 /* Assets.xcassets */; };
@@ -25,6 +31,12 @@
 		BF03CF2F236640E6004ABC61 /* Bool+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+Extension.swift"; sourceTree = "<group>"; };
 		BF03CF3123664155004ABC61 /* NSMenu+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMenu+Extension.swift"; sourceTree = "<group>"; };
 		BF03CF3323664FF6004ABC61 /* DockIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DockIcon.swift; sourceTree = "<group>"; };
+		BF1A39852571813A004A4E54 /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		BF1A39862571813A004A4E54 /* Project-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Shared.xcconfig"; sourceTree = "<group>"; };
+		BF1A39872571813A004A4E54 /* Advanced-Clock-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Advanced-Clock-Release.xcconfig"; sourceTree = "<group>"; };
+		BF1A39882571813A004A4E54 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		BF1A39892571813A004A4E54 /* Advanced-Clock-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Advanced-Clock-Debug.xcconfig"; sourceTree = "<group>"; };
+		BF1A398A2571813A004A4E54 /* Advanced-Clock-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Advanced-Clock-Shared.xcconfig"; sourceTree = "<group>"; };
 		BFF25A982366281100667B15 /* Advanced Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Clock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF25A9B2366281100667B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF25A9D2366281100667B15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,9 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF1A39842571813A004A4E54 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BF1A39852571813A004A4E54 /* Project-Release.xcconfig */,
+				BF1A39862571813A004A4E54 /* Project-Shared.xcconfig */,
+				BF1A39872571813A004A4E54 /* Advanced-Clock-Release.xcconfig */,
+				BF1A39882571813A004A4E54 /* Project-Debug.xcconfig */,
+				BF1A39892571813A004A4E54 /* Advanced-Clock-Debug.xcconfig */,
+				BF1A398A2571813A004A4E54 /* Advanced-Clock-Shared.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
 		BFF25A8F2366281100667B15 = {
 			isa = PBXGroup;
 			children = (
+				BF1A39842571813A004A4E54 /* Config */,
 				BFF25A9A2366281100667B15 /* Advanced Clock */,
 				BFF25A992366281100667B15 /* Products */,
 			);
@@ -111,7 +137,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1110;
-				LastUpgradeCheck = 1110;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Riley Roach";
 				TargetAttributes = {
 					BFF25A972366281100667B15 = {
@@ -142,8 +168,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1A39902571813A004A4E54 /* Advanced-Clock-Shared.xcconfig in Resources */,
+				BF1A398F2571813A004A4E54 /* Advanced-Clock-Debug.xcconfig in Resources */,
+				BF1A398E2571813A004A4E54 /* Project-Debug.xcconfig in Resources */,
+				BF1A398D2571813A004A4E54 /* Advanced-Clock-Release.xcconfig in Resources */,
 				BFF25AA02366281200667B15 /* Assets.xcassets in Resources */,
+				BF1A398C2571813A004A4E54 /* Project-Shared.xcconfig in Resources */,
 				BFF25AA32366281200667B15 /* Main.storyboard in Resources */,
+				BF1A398B2571813A004A4E54 /* Project-Release.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +214,7 @@
 /* Begin XCBuildConfiguration section */
 		BFF25AA62366281200667B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1A39882571813A004A4E54 /* Project-Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -206,6 +239,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -242,6 +276,7 @@
 		};
 		BFF25AA72366281200667B15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1A39852571813A004A4E54 /* Project-Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -266,6 +301,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -295,9 +331,11 @@
 		};
 		BFF25AA92366281200667B15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1A39892571813A004A4E54 /* Advanced-Clock-Debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Advanced Clock/Advanced_Clock.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7MGU4K38T3;
@@ -315,9 +353,11 @@
 		};
 		BFF25AAA2366281200667B15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1A39872571813A004A4E54 /* Advanced-Clock-Release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Advanced Clock/Advanced_Clock.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 7MGU4K38T3;
